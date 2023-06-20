@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:ital,wght@1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    min-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 60px;
+}
+
+.header-title {
+    margin-top: 20px;
+}
+
+.header-title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.header-text p {
+    font-size: 16px;
+    color: #fbf7f7cc;
+    margin-bottom: 230px;
+}
+
+.icon {
+    display: flex;
+}
+
+.img-link {
+    width: 23px;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
